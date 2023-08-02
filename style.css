@@ -1,0 +1,76 @@
+main{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+.container{
+    width: 90vw;
+    background-color: rgb(120, 163, 196);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-task{
+    background-color: antiquewhite;
+    width: 30vw;
+    height: 20vw;
+    border: 1px solid rgb(116, 116, 206);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 0 15px;
+}
+.ta{
+    width: 90%;
+    height: 50%;
+    margin-left: 10px;
+    font-size: 2rem;
+    background-color: #dedddd;
+    border: none;
+    border-radius: 15px;
+}
+.row{
+    margin:10px;
+}
+.row-s{
+    display: flex;
+    margin: 0px;  
+    justify-content: center;
+}
+.add-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(214, 161, 92);
+    border-radius: 5px;
+    font-size: 25px;
+    border:none;
+    margin-top: 6px;
+    box-shadow: #bfa65c 0 0 5px 0;
+}
+.add-btn:hover{
+    box-shadow: #bfa65c 0 0 10px 4px;
+}
+.texts ul{
+    position:relative;
+    background-color: #e2ca80;
+    color:black;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+} 
+.texts ul i{
+    position: absolute;
+    right: 10px;
+}
+h1{
+    position: relative;
+    left: 5px;
+}
